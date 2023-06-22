@@ -96,6 +96,8 @@ while choose.lower()=='yes':
             print()
     print(f'Your Score after this round : {user1_points_this_round}')
     print(f'Computer\'s Score after this round : {user2_points_this_round}')
+    print()
+    time.sleep(4)
     choose=input('Do you want to continue playing this game(Yes/No): ')
     time.sleep(6)
 print()
