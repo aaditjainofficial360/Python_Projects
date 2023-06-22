@@ -1,7 +1,7 @@
 import random
 
 print('*'*50)
-print('Welcome to Guessing Game')
+print('----Welcome to Guessing Game----')
 print('*'*50)
 start=int(input('Enter the starting value: '))
 end=int(input('Enter the ending value: '))
