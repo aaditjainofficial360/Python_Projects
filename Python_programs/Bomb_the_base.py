@@ -11,8 +11,8 @@ for i in range(T):
     print(houses_affected)
 
 '''
+T=2
 Input- 1 
-2
 8 6
 4 1 6 1 6 5 6 8
 Result Output : 6
@@ -20,5 +20,5 @@ Result Output : 6
 Input- 2
 2 1
 3 5
-Result Output = 0
+Result Output : 0
 '''
