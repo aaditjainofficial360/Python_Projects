@@ -14,12 +14,18 @@ Explanation - There are two maximums with value 22. The first one has index 0.
 '''
 
 def locate_peak(lst):
-    max_element=max(lst)
-    index_result=lst.index(max_element)
-    return index_result
+    if lst!=[]:
+        max_element=max(lst)
+        index_result=lst.index(max_element)
+        return index_result
+    else:
+        return -1
 
 Input1=[5, 10, 15, 4, 6]
 print(locate_peak(Input1))
 
 Input2=[22 , 3, 22 , 2 , 7 , 11]
 print(locate_peak(Input2))
+
+Test_Input=[]
+print(locate_peak(Test_Input))

@@ -18,7 +18,7 @@ def mean_of_words(lst):
         total_length_of_words+=len(i)
     total_length_of_a_sentence=len(lst)
     mean=total_length_of_words/total_length_of_a_sentence
-    return mean
+    return round(mean,2)
 Input1=[['I','am','hungry'],["Let\’s",'order’']]
 Input2=[['We','know','what','we','are'],['But','Know','not','what','we','may','be']]
 Input3=[['I','am','the','king','of','this','industry'],['Bow','Down','to','me']]
