@@ -40,6 +40,9 @@ def solve_kaprekar(number, max_steps):
     else:
         return True
 
+#Testcase-1
 print(solve_kaprekar(1,3))
+#Testcase-2
 print(solve_kaprekar(1674,1))
+#Testcase-3
 print(solve_kaprekar(93,4))
