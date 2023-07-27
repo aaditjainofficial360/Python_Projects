@@ -1,3 +1,7 @@
 Source : GeekforGeeks
 
 Level : Beginner 
+
+Solved by : Aadit Jain
+
+These series of challenges are designed by GeekforGeeks to practise and enhance the coding skills.
