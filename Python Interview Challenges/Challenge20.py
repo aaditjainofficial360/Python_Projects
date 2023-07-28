@@ -10,8 +10,6 @@ output : str= laxmi is name my
 '''
 
 def reverse_it(string):
-    string.split()[::-1]
-    result=''.join(string)
-    return  result
+    pass
 
-print(reverse_it(" geeks quiz practice code"))
+#print(reverse_it(" geeks quiz practice code"))
