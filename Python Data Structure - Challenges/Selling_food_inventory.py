@@ -9,13 +9,13 @@ def food_order(item,no_of_pieces):
             global order_id
             order_id+=1
             print(f'Your Order is placed. Your Order Id is {order_id}')
-            return ''
+
         else:
             print('We are currently out of stock for this item.')
-            return ''
+
     else:
         print('We don\'t offer this item currently.')
-        return ''
+
 O1=food_order('Idli Sambhar',6)
 O2=food_order('Aloo Chat',5)
 O3=food_order('Dhokla',20)
