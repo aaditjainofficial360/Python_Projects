@@ -6,7 +6,7 @@ def place_orders(item):
     recent_orders.append(item)
 
 def last_recent_orders():
-    print(f"Here are your last five orders : {recent_orders[:5]}")
+    print(f"Here are your last five orders : {recent_orders[-5:]}")
 
 Order1=place_orders('Dhokla')
 Order2=place_orders('Samosa')
