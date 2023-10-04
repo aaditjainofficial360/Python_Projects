@@ -1,4 +1,4 @@
-n=int(input())
+n=int(input('Enter any number: '))
 flag=True
 prime_lst=[]
 for num in range(2,n+1):
