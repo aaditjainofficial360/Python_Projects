@@ -9,4 +9,4 @@ for num in range(2,n+1):
     else:
         prime_lst.append(num)
 
-print(prime_lst)    
+print(f"List of prime number before {n}: {prime_lst}")    
